@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Результат"; ObjectID = "5m3-tu-nFU"; */
+"5m3-tu-nFU.normalTitle" = "Результат";
+
+/* Class = "UILabel"; text = "Ты наслаждаешься жизнью уже ... дней!"; ObjectID = "Fmb-ge-IHR"; */
+"Fmb-ge-IHR.text" = "Ты наслаждаешься жизнью уже ... дней!";
+
+/* Class = "UILabel"; text = "Радуйся каждому дню!"; ObjectID = "lUh-oG-dvo"; */
+"lUh-oG-dvo.text" = "Радуйся каждому дню!";
+
+/* Class = "UILabel"; text = "Выбери свой день рождения:"; ObjectID = "qcK-yI-TfI"; */
+"qcK-yI-TfI.text" = "Выбери свой день рождения:";
