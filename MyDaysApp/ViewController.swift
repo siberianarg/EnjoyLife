@@ -33,8 +33,7 @@ class ViewController: UIViewController {
     @IBAction func dataPicker(_ sender: UIDatePicker) {
         
         let range = sender.date..<Date.now
-        let russianLocale = Locale(identifier: "ru_RF")
-        numberOfDays = range.formatted(.components(style: .wide, fields: [.day]).locale(russianLocale))
+        numberOfDays = range.formatted(.components(style: .wide, fields: [.day]).locale(Locale(identifier: "ru_RF")))
     }
     
     @IBAction func resoultButtonTapped() {

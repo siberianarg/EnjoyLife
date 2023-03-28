@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26628D8E29D2CB630005F7AF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 26628D8D29D2CB630005F7AF /* .gitignore */; };
 		269B95EA297B1D3C00651442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B95E9297B1D3C00651442 /* AppDelegate.swift */; };
 		269B95EC297B1D3C00651442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B95EB297B1D3C00651442 /* SceneDelegate.swift */; };
 		269B95EE297B1D3C00651442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B95ED297B1D3C00651442 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26628D8D29D2CB630005F7AF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		269B95E6297B1D3C00651442 /* MyDaysApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDaysApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		269B95E9297B1D3C00651442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		269B95EB297B1D3C00651442 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		269B95DD297B1D3C00651442 = {
 			isa = PBXGroup;
 			children = (
+				26628D8D29D2CB630005F7AF /* .gitignore */,
 				269B95E8297B1D3C00651442 /* MyDaysApp */,
 				269B95E7297B1D3C00651442 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26628D8E29D2CB630005F7AF /* .gitignore in Resources */,
 				269B95F6297B1D3D00651442 /* LaunchScreen.storyboard in Resources */,
 				269B95F3297B1D3D00651442 /* Assets.xcassets in Resources */,
 				269B95F1297B1D3C00651442 /* Main.storyboard in Resources */,
