@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         buttonView()
-        self.view.backgroundColor = UIColor(red: 203/255, green: 228/255, blue: 222/255, alpha: 1.0)
+        view.backgroundColor = UIColor(red: 203/255, green: 228/255, blue: 222/255, alpha: 1.0)
         dataPicker.maximumDate = Date.now
         infoLabel.textColor = UIColor(red: 14/255, green: 131/255, blue: 136/255, alpha: 1.0)
         infoLabel.isHidden = true
@@ -31,7 +31,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func dataPicker(_ sender: UIDatePicker) {
-        
         let range = sender.date..<Date.now
         numberOfDays = range.formatted(.components(style: .wide, fields: [.day]).locale(Locale(identifier: "ru_RF")))
     }
